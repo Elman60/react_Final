@@ -51,6 +51,10 @@ npm start
 
 The application will open in your default browser at `http://localhost:3000`.
 
+![image](https://github.com/user-attachments/assets/5982f146-9e31-441d-a584-c12a9fcd763b)
+![image](https://github.com/user-attachments/assets/9214dbdf-46a7-4da9-b0ac-2693aec05fbc)
+![image](https://github.com/user-attachments/assets/0e2a204f-08e4-498e-abd2-e91e873ca1f3)
+
 
 ## License
 
