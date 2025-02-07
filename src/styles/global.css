@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0052cc;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-links li a, .navbar-links li button {
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover, .navbar-links li button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container .hero {
+    margin-top: 30px;
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .transactions-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .auth-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .auth-form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    background-color: #0052cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #003d99;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-container h1 {
+      font-size: 2rem;
+    }
+    .auth-container {
+      margin: 20px;
+      padding: 20px;
+    }
+
+  }
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --navbar-bg: #0052cc;
+  --navbar-text: #fff;
+  --button-bg: #0052cc;
+  --button-hover: #003d99;
+  --card-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #f5f5f5;
+  --navbar-bg: #222;
+  --navbar-text: #fff;
+  --button-bg: #444;
+  --button-hover: #666;
+  --card-bg: #333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+}
+
+.navbar-links li a, .navbar-links li button {
+  color: var(--navbar-text);
+}
+
+.navbar-links li a:hover, .navbar-links li button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+button {
+  background-color: var(--button-bg);
+  color: var(--navbar-text);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.transactions-list li {
+  background-color: var(--card-bg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+  
+  
